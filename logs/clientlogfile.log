@@ -1,0 +1,91 @@
+TRACE 2021-04-11 12:12:38 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+DEBUG 2021-04-11 12:12:49 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2021-04-11 12:27:19 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2021-04-11 12:27:30 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2021-04-11 12:27:30 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2021-04-11 12:27:30 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2021-04-11 12:27:58 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:141) - Отправлено сообщение /w Jack 234234234
+TRACE 2021-04-11 12:29:03 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2021-04-11 12:29:09 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2021-04-11 12:29:09 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2021-04-11 12:29:09 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2021-04-11 12:29:09 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:120) - Принято сообщение Клиент Bob вошел в чат
+TRACE 2021-04-11 12:29:24 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:142) - Отправлено сообщение /w Jack 232323
+TRACE 2021-04-11 12:29:24 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:120) - Принято сообщение Невозможно отправить сообщение пользователю: Jack. Такого пользователя нет в сети.
+TRACE 2021-04-11 12:31:41 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2021-04-11 12:31:49 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2021-04-11 12:31:49 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2021-04-11 12:31:49 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2021-04-11 12:31:49 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Bob вошел в чат
+TRACE 2021-04-11 12:31:49 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - В рамках Platform.runLater(() -> выполнено обновление списка пользователей
+TRACE 2021-04-11 12:38:45 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2021-04-11 12:38:57 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2021-04-11 12:38:57 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2021-04-11 12:38:57 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2021-04-11 12:38:57 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Bob вошел в чат
+TRACE 2021-04-11 12:38:57 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - В рамках Platform.runLater(() -> выполнено обновление списка пользователей
+TRACE 2021-04-11 12:39:46 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2021-04-11 12:39:53 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2021-04-11 12:39:53 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login Jack 100
+TRACE 2021-04-11 12:39:53 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:99) - Неудачный логин /login_failed Введен некорретный логин/пароль
+
+DEBUG 2021-04-11 12:40:07 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login jack 100
+TRACE 2021-04-11 12:40:07 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Jack
+TRACE 2021-04-11 12:40:07 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Jack вошел в чат
+TRACE 2021-04-11 12:40:07 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Jack вошел в чат
+TRACE 2021-04-11 12:40:07 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - В рамках Platform.runLater(() -> выполнено обновление списка пользователей
+TRACE 2021-04-11 12:40:07 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - В рамках Platform.runLater(() -> выполнено обновление списка пользователей
+TRACE 2021-04-11 12:40:47 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение /w Bob qweqeq
+TRACE 2021-04-11 12:40:47 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение От: Jack Сообщение: qweqeq
+TRACE 2021-04-11 12:40:47 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Пользователю: Bob Сообщение: qweqeq
+TRACE 2021-04-11 12:41:14 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Jack вышел из чата
+TRACE 2021-04-11 12:41:14 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - В рамках Platform.runLater(() -> выполнено обновление списка пользователей
+TRACE 2021-04-11 12:43:17 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2021-04-11 12:43:28 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2021-04-11 12:43:28 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2021-04-11 12:43:28 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2021-04-11 12:43:28 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Bob вошел в чат
+TRACE 2021-04-11 12:43:28 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - Выполнено обновление списка пользователей
+TRACE 2022-02-22 22:31:30 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2022-02-22 22:32:16 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2022-02-22 22:32:59 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2022-02-22 22:32:59 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2022-02-22 22:32:59 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2022-02-22 22:32:59 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Bob вошел в чат
+TRACE 2022-02-22 22:32:59 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - Выполнено обновление списка пользователей
+TRACE 2022-02-22 22:34:57 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2022-02-22 22:35:06 [main] ru.alexander_kramarenko.march.chat.client.Main (Main.java:24) - Вошли в приложение Клиент.
+TRACE 2022-02-22 22:35:26 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2022-02-22 22:35:26 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login bob 100
+TRACE 2022-02-22 22:35:26 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Bob
+TRACE 2022-02-22 22:35:26 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Bob вошел в чат
+TRACE 2022-02-22 22:35:26 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - Выполнено обновление списка пользователей
+TRACE 2022-02-22 22:35:36 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:87) - Попытка запустить поток Thread-5
+DEBUG 2022-02-22 22:35:36 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:74) - Отправлена команда /login jack 100
+TRACE 2022-02-22 22:35:36 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:93) - /login_ok сообщение /login_ok Jack
+TRACE 2022-02-22 22:35:36 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Jack вошел в чат
+TRACE 2022-02-22 22:35:36 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Jack вошел в чат
+TRACE 2022-02-22 22:35:36 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - Выполнено обновление списка пользователей
+TRACE 2022-02-22 22:35:36 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:115) - Выполнено обновление списка пользователей
+TRACE 2022-02-22 22:35:42 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение adasd
+TRACE 2022-02-22 22:35:42 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Jack: adasd
+TRACE 2022-02-22 22:35:42 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Jack: adasd
+TRACE 2022-02-22 22:35:45 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение asdasd
+TRACE 2022-02-22 22:35:45 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: asdasd
+TRACE 2022-02-22 22:35:45 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: asdasd
+TRACE 2022-02-22 22:35:55 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение asdasdasdaasdv
+TRACE 2022-02-22 22:35:55 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: asdasdasdaasdv
+TRACE 2022-02-22 22:35:55 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: asdasdasdaasdv
+TRACE 2022-02-22 22:36:03 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение 555555555555555
+TRACE 2022-02-22 22:36:03 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Jack: 555555555555555
+TRACE 2022-02-22 22:36:03 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Jack: 555555555555555
+TRACE 2022-02-22 22:36:06 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение 5555555555
+TRACE 2022-02-22 22:36:06 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: 5555555555
+TRACE 2022-02-22 22:36:06 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: 5555555555
+TRACE 2022-02-22 22:36:23 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение fff
+TRACE 2022-02-22 22:36:23 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: fff
+TRACE 2022-02-22 22:36:23 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: fff
+TRACE 2022-02-22 22:36:24 [JavaFX Application Thread] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:143) - Отправлено сообщение 
+TRACE 2022-02-22 22:36:24 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: 
+TRACE 2022-02-22 22:36:24 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Bob: 
+TRACE 2022-02-22 22:36:41 [Thread-5] ru.alexander_kramarenko.march.chat.client.Controller (Controller.java:121) - Принято сообщение Клиент Jack вышел из чата

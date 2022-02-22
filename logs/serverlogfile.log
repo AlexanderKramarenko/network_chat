@@ -1,0 +1,285 @@
+TRACE 2021-04-11 09:52:26 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+TRACE 2021-04-11 09:52:41 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:29) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 09:52:41 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:35) - Получена команда :/login bob 100
+TRACE 2021-04-11 09:52:41 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:59) - /login_ok Bob
+TRACE 2021-04-11 10:45:26 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+TRACE 2021-04-11 10:45:47 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:31) - Попытка запустить поток Thread-1
+TRACE 2021-04-11 10:48:38 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+TRACE 2021-04-11 10:48:50 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:31) - Попытка запустить поток Thread-1
+ERROR 2021-04-11 10:48:50 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:79) - Throwing
+java.lang.NullPointerException: null
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:33) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 10:52:56 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+TRACE 2021-04-11 10:53:10 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+ERROR 2021-04-11 10:53:10 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:80) - Throwing
+java.lang.NullPointerException: null
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:34) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+INFO  2021-04-11 10:53:10 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:84) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2021-04-11 10:59:14 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+TRACE 2021-04-11 10:59:26 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 10:59:26 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 10:59:26 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2021-04-11 11:02:31 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:99) - Отправлено приватное сообщение : от ru.alexander_kramarenko.march.chat.server.ClientHandler@7e428e05 кому : Jack Сообщение : 100
+DEBUG 2021-04-11 11:02:31 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:70) - Получена команда :/w Jack 100
+TRACE 2021-04-11 11:06:35 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+TRACE 2021-04-11 11:06:47 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 11:06:47 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 11:06:47 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+WARN  2021-04-11 11:06:58 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:71) - Невозможно отправить сообщение пользователю: Jack. Такого пользователя нет в сети.
+TRACE 2021-04-11 11:06:58 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:99) - Отправлено приватное сообщение : от ru.alexander_kramarenko.march.chat.server.ClientHandler@38ae42c5 кому : Jack Сообщение : ytyttyt
+DEBUG 2021-04-11 11:06:58 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:70) - Получена команда :/w Jack ytyttyt
+TRACE 2021-04-11 11:14:05 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+INFO  2021-04-11 11:14:05 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 11:14:05 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:34) - Ждем нового клиента..
+TRACE 2021-04-11 11:14:27 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:37) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=51946,localport=8189]
+TRACE 2021-04-11 11:14:27 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:34) - Ждем нового клиента..
+TRACE 2021-04-11 11:14:27 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 11:14:27 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 11:14:27 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2021-04-11 11:46:36 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+INFO  2021-04-11 11:46:37 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 11:46:37 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 11:46:51 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52128,localport=8189]
+TRACE 2021-04-11 11:46:51 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 11:46:51 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 11:46:51 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+WARN  2021-04-11 11:46:51 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:50) - /login_failed Введен некорретный логин/пароль
+TRACE 2021-04-11 11:49:22 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+ERROR 2021-04-11 11:49:22 [main] ru.alexander_kramarenko.march.chat.server.DbConnection (DbConnection.java:29) - Throwing
+java.lang.RuntimeException: Невозможно подключиться к базе данных
+	at ru.alexander_kramarenko.march.chat.server.DbConnection.<init>(DbConnection.java:29) [classes/:?]
+	at ru.alexander_kramarenko.march.chat.server.DbAuthenticationProvider.init(DbAuthenticationProvider.java:18) [classes/:?]
+	at ru.alexander_kramarenko.march.chat.server.Server.<init>(Server.java:29) [classes/:?]
+	at ru.alexander_kramarenko.march.chat.server.ServerApp.main(ServerApp.java:12) [classes/:?]
+INFO  2021-04-11 11:49:22 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 11:49:22 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 11:54:59 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Entering application.
+INFO  2021-04-11 11:54:59 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 11:54:59 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 11:55:11 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52159,localport=8189]
+TRACE 2021-04-11 11:55:11 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 11:55:11 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 11:55:11 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 11:55:11 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 11:55:11 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2021-04-11 12:12:31 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2021-04-11 12:12:31 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 12:12:31 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:12:49 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52241,localport=8189]
+TRACE 2021-04-11 12:12:49 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:12:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 12:12:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 12:12:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 12:12:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+ERROR 2021-04-11 12:13:13 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:13:13 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2021-04-11 12:13:13 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:83) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2021-04-11 12:27:14 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2021-04-11 12:27:14 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 12:27:14 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:27:30 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52278,localport=8189]
+TRACE 2021-04-11 12:27:30 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:27:30 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 12:27:30 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 12:27:30 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 12:27:30 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2021-04-11 12:27:58 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:76) - Невозможно отправить сообщение <234234234> пользователю: Jack. Такого пользователя нет в сети.
+TRACE 2021-04-11 12:27:58 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:99) - Отправлено приватное сообщение : от ru.alexander_kramarenko.march.chat.server.ClientHandler@1188ff7a кому : Jack Сообщение : 234234234
+DEBUG 2021-04-11 12:27:58 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:70) - Получена команда :/w Jack 234234234
+ERROR 2021-04-11 12:28:51 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:28:51 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2021-04-11 12:28:51 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:83) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2021-04-11 12:28:56 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2021-04-11 12:28:56 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 12:28:56 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:29:09 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52290,localport=8189]
+TRACE 2021-04-11 12:29:09 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:29:09 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 12:29:09 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 12:29:09 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 12:29:09 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2021-04-11 12:29:24 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:76) - Невозможно отправить сообщение <232323> пользователю: Jack. Такого пользователя нет в сети.
+TRACE 2021-04-11 12:29:24 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:99) - Отправлено приватное сообщение : от ru.alexander_kramarenko.march.chat.server.ClientHandler@43293461 кому : Jack Сообщение : 232323
+DEBUG 2021-04-11 12:29:24 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:70) - Получена команда :/w Jack 232323
+ERROR 2021-04-11 12:31:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:31:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2021-04-11 12:31:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:83) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2021-04-11 12:31:35 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2021-04-11 12:31:36 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 12:31:36 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:31:49 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52304,localport=8189]
+TRACE 2021-04-11 12:31:49 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:31:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 12:31:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 12:31:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 12:31:49 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+ERROR 2021-04-11 12:32:08 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:32:08 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2021-04-11 12:32:08 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:83) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2021-04-11 12:38:41 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2021-04-11 12:38:42 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 12:38:42 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:38:57 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52484,localport=8189]
+TRACE 2021-04-11 12:38:57 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:38:57 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 12:38:57 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 12:38:57 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 12:38:57 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2021-04-11 12:39:53 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52491,localport=8189]
+TRACE 2021-04-11 12:39:53 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:39:53 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-2
+DEBUG 2021-04-11 12:39:53 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login Jack 100
+WARN  2021-04-11 12:39:53 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:50) - /login_failed Введен некорретный логин/пароль
+DEBUG 2021-04-11 12:40:07 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login jack 100
+TRACE 2021-04-11 12:40:07 [Thread-2] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Jack вошел в чат
+TRACE 2021-04-11 12:40:07 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Jack
+TRACE 2021-04-11 12:40:47 [Thread-2] ru.alexander_kramarenko.march.chat.server.Server (Server.java:71) - Сервер обработал приватное сообщение От: JackПользователю: Bob Сообщение: qweqeq
+TRACE 2021-04-11 12:40:47 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:99) - Отправлено приватное сообщение : от ru.alexander_kramarenko.march.chat.server.ClientHandler@427fd655 кому : Bob Сообщение : qweqeq
+DEBUG 2021-04-11 12:40:47 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:70) - Получена команда :/w Bob qweqeq
+ERROR 2021-04-11 12:41:14 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:41:14 [Thread-2] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Jack вышел из чата
+WARN  2021-04-11 12:41:14 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:83) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+ERROR 2021-04-11 12:41:18 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:41:18 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2021-04-11 12:41:18 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:83) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2021-04-11 12:42:59 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2021-04-11 12:42:59 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2021-04-11 12:42:59 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:43:28 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=52522,localport=8189]
+TRACE 2021-04-11 12:43:28 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2021-04-11 12:43:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2021-04-11 12:43:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2021-04-11 12:43:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2021-04-11 12:43:28 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+ERROR 2021-04-11 12:43:33 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2021-04-11 12:43:33 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2021-04-11 12:43:33 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:82) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2022-02-22 22:31:56 [main] ru.alexander_kramarenko.march.chat.server.ServerApp (ServerApp.java:11) - Вошли в приложение Сервер.
+INFO  2022-02-22 22:31:57 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:31) - Сервер запущен на порту 8189
+TRACE 2022-02-22 22:31:57 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2022-02-22 22:32:59 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=51187,localport=8189]
+TRACE 2022-02-22 22:32:59 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2022-02-22 22:32:59 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-1
+DEBUG 2022-02-22 22:32:59 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2022-02-22 22:32:59 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2022-02-22 22:32:59 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+ERROR 2022-02-22 22:34:33 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2022-02-22 22:34:33 [Thread-1] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2022-02-22 22:34:33 [Thread-1] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:82) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+TRACE 2022-02-22 22:35:26 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=51240,localport=8189]
+TRACE 2022-02-22 22:35:26 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2022-02-22 22:35:26 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-2
+DEBUG 2022-02-22 22:35:26 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login bob 100
+TRACE 2022-02-22 22:35:26 [Thread-2] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Bob вошел в чат
+TRACE 2022-02-22 22:35:26 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Bob
+TRACE 2022-02-22 22:35:36 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:35) - Клиент подключился. Сервер : ru.alexander_kramarenko.march.chat.server.Server@525f1e4esocket : Socket[addr=/127.0.0.1,port=51283,localport=8189]
+TRACE 2022-02-22 22:35:36 [main] ru.alexander_kramarenko.march.chat.server.Server (Server.java:33) - Ждем нового клиента..
+TRACE 2022-02-22 22:35:36 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:32) - Попытка запустить поток Thread-3
+DEBUG 2022-02-22 22:35:36 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:37) - Получена команда с префиксом /login :/login jack 100
+TRACE 2022-02-22 22:35:36 [Thread-3] ru.alexander_kramarenko.march.chat.server.Server (Server.java:49) - Клиент Jack вошел в чат
+TRACE 2022-02-22 22:35:36 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:61) - /login_ok Jack
+INFO  2022-02-22 22:35:42 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Jack: adasd
+INFO  2022-02-22 22:35:45 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Bob: asdasd
+INFO  2022-02-22 22:35:55 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Bob: asdasdasdaasdv
+INFO  2022-02-22 22:36:03 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Jack: 555555555555555
+INFO  2022-02-22 22:36:06 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Bob: 5555555555
+INFO  2022-02-22 22:36:23 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Bob: fff
+INFO  2022-02-22 22:36:24 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:74) - Отправлено широковещательное сообщение : Bob: 
+ERROR 2022-02-22 22:36:41 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2022-02-22 22:36:41 [Thread-3] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Jack вышел из чата
+WARN  2022-02-22 22:36:41 [Thread-3] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:82) - По блоку finally выполнен разрыв соединения вызовом disconnect()
+ERROR 2022-02-22 22:36:44 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:77) - Throwing
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:1.8.0_281]
+	at java.net.SocketInputStream.read(SocketInputStream.java:224) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUnsignedShort(DataInputStream.java:337) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:589) ~[?:1.8.0_281]
+	at java.io.DataInputStream.readUTF(DataInputStream.java:564) ~[?:1.8.0_281]
+	at ru.alexander_kramarenko.march.chat.server.ClientHandler.lambda$new$0(ClientHandler.java:67) ~[classes/:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_281]
+TRACE 2022-02-22 22:36:44 [Thread-2] ru.alexander_kramarenko.march.chat.server.Server (Server.java:56) - Клиент Bob вышел из чата
+WARN  2022-02-22 22:36:44 [Thread-2] ru.alexander_kramarenko.march.chat.server.ClientHandler (ClientHandler.java:82) - По блоку finally выполнен разрыв соединения вызовом disconnect()
